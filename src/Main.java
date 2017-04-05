@@ -17,7 +17,7 @@ public class Main {
 	 * The calculated median will be outputed in "standard output stream".
 	 * 
 	 * @param args Not used argument
-	 * @throws IOException Will be thrown in case fetching data from modfins API does not go as planned. 
+	 * @throws IOException Will be thrown in case fetching data from Modular finances API does not go as planned. 
 	 */
 	public static void main(String[] args) throws IOException {
 		URL url = new URL("http://fx.modfin.se/2016-01-01/2016-12-99?base=usd&symbols=usd,sek");
